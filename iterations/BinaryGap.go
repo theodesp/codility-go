@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package iterations
 
 /*
  A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones
@@ -24,11 +20,7 @@ import (
  representation 10000010001 and so its longest binary gap is of length 5.
  */
 
-func main() {
-	v := 1041
 
-	fmt.Printf("%v\n", Solution(v))
-}
 // See https://graphics.stanford.edu/~seander/bithacks.html#ZerosOnRightLinear
 func countTrailingBits(N uint) uint {
 	var _lookup = [...]uint{
@@ -43,8 +35,8 @@ func countTrailingBits(N uint) uint {
  * Iterate through the bits and find the longest
  * substring of zeros in O(L) where L is the length of the binary string => floor(log(n+1))
  */
-func Solution(N int) int {
-	maxLength := 0
+func Solution(N int) (maxLength int) {
+	maxLength = 0
 	currentLength := 0
 	trailing := countTrailingBits(uint(N))
 
@@ -67,5 +59,5 @@ func Solution(N int) int {
 		N >>= 1
 	}
 
-	return maxLength;
+	return;
 }
