@@ -6,16 +6,16 @@ cases.
 I've added a checklist to mark finished exercises feel free to 
 comment.
 
-### Lessons
+## Lessons
 
-- [x] Iterations
+- [x] **Iterations**
     - [x] Binary Gap
     
-- [x] Arrays
+- [x] **Arrays**
     - [x] OddOccurrencesInArray
     - [x] CyclicRotation
     
-- [x] Time Complexity
+- [x] **Time Complexity**
     - [x] PermMissingElem
     - [x] FrogJmp
     - [x] TapeEquilibrium
