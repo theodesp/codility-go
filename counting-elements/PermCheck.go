@@ -53,7 +53,7 @@ expected worst-case space complexity is O(N), beyond input storage (not counting
 
  */
 
-// Calculate sum(A) and N(N-1)/2 and see if they match.
+// Calculate sum(A) and N(N+1)/2 and see if they match.
 func PermCheck(A []int) int {
 	sum := 0
 	seen := make(map[int]bool)

@@ -22,7 +22,7 @@ comment.
 
 - [ ] **Counting Elements**
     - [x] PermCheck
-    - [ ] FrogRiverOne
+    - [x] FrogRiverOne
     - [ ] MissingInteger
     - [ ] MaxCounters
 
