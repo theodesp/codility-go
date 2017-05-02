@@ -20,5 +20,10 @@ comment.
     - [x] FrogJmp
     - [x] TapeEquilibrium
 
+- [ ] **Counting Elements**
+    - [x] PermCheck
+    - [ ] FrogRiverOne
+    - [ ] MissingInteger
+    - [ ] MaxCounters
 
 
