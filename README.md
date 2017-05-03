@@ -20,10 +20,16 @@ comment.
     - [x] FrogJmp
     - [x] TapeEquilibrium
 
-- [ ] **Counting Elements**
+- [x] **Counting Elements**
     - [x] PermCheck
     - [x] FrogRiverOne
     - [x] MissingInteger
-    - [ ] MaxCounters
+    - [x] MaxCounters
+
+- [ ] **Prefix Sums**
+    - [ ] CountDiv
+    - [ ] PassingCars
+    - [ ] GenomicRangeQuery
+    - [ ] MinAvgTwoSlice
 
 
