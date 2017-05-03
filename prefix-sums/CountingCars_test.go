@@ -1,4 +1,4 @@
-package counting_elements
+package prefix_sums
 
 import (
 . "gopkg.in/check.v1"
@@ -7,12 +7,11 @@ import (
 var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestFrogRiverOne(c *C) {
-	c.Assert(FrogRiverOne(5, []int {1, 3, 1, 4, 2, 3, 5, 4}), Equals, 6)
+	c.Assert(CountingCars([]int {0, 1, 0, 1, 1}), Equals, 5)
 }
 
 func (s *MySuite) BenchmarkFrogRiverOne(c *C) {
 	for i := 0; i < c.N; i++ {
-		FrogRiverOne(5, []int {1, 3, 1, 4, 2, 3, 5, 4})
+		CountingCars([]int {0, 1, 0, 1, 1})
 	}
 }
-

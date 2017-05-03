@@ -12,8 +12,8 @@ type MySuite struct{}
 var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestCountDiv(c *C) {
-	c.Assert(CountDiv(1, 1000, 11), 90)
-	c.Assert(CountDiv(0, 0, 11), 1)
+	c.Assert(CountDiv(1, 1000, 11), Equals, 90)
+	c.Assert(CountDiv(0, 0, 11), Equals, 1)
 
 }
 

@@ -7,7 +7,7 @@ import (
 var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestMissingInteger(c *C) {
-	c.Assert(MissingInteger([]int {1, 3, 6, 4, 1, 2}), 5)
+	c.Assert(MissingInteger([]int {1, 3, 6, 4, 1, 2}), Equals, 5)
 }
 
 func (s *MySuite) BenchmarkMissingInteger(c *C) {
