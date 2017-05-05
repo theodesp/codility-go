@@ -29,7 +29,7 @@ comment.
 - [ ] **Prefix Sums**
     - [X] CountDiv
     - [X] PassingCars
-    - [ ] GenomicRangeQuery
+    - [X] GenomicRangeQuery
     - [ ] MinAvgTwoSlice
 
 
