@@ -26,10 +26,16 @@ comment.
     - [x] MissingInteger
     - [x] MaxCounters
 
-- [ ] **Prefix Sums**
-    - [X] CountDiv
-    - [X] PassingCars
-    - [X] GenomicRangeQuery
-    - [ ] MinAvgTwoSlice
+- [x] **Prefix Sums**
+    - [x] CountDiv
+    - [x] PassingCars
+    - [x] GenomicRangeQuery
+    - [x] MinAvgTwoSlice
+
+- [ ] **Sorting**
+    - [ ] Distinct
+    - [ ] Triangle
+    - [ ] MaxProductOfThree
+    - [ ] NumberOfDiscIntersections
 
 
