@@ -33,7 +33,7 @@ comment.
     - [x] MinAvgTwoSlice
 
 - [ ] **Sorting**
-    - [ ] Distinct
+    - [x] Distinct
     - [ ] Triangle
     - [ ] MaxProductOfThree
     - [ ] NumberOfDiscIntersections
