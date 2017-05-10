@@ -7,15 +7,11 @@ import (
 var _ = Suite(&MySuite{})
 
 func (s *MySuite) TestMaxProductOfThree(c *C) {
-	c.Assert(MaxProductOfThree([]int{-3, 1, 2, -2, 5, 6}), Equals, 60)
+	c.Assert(MaxProductOfThree([]int{1, 5, 2, 1, 4, 0}), Equals, 11)
 }
 
 func (s *MySuite) BenchmarkMaxProductOfThree(c *C) {
 	for i := 0; i < c.N; i++ {
-		Triangle([]int{10, 2, 5, 1, 8, 20})
+		MaxProductOfThree([]int{1, 5, 2, 1, 4, 0})
 	}
 }
-
-
-
-

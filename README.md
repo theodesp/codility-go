@@ -32,10 +32,16 @@ comment.
     - [x] GenomicRangeQuery
     - [x] MinAvgTwoSlice
 
-- [ ] **Sorting**
+- [x] **Sorting**
     - [x] Distinct
     - [x] Triangle
     - [x] MaxProductOfThree
-    - [ ] NumberOfDiscIntersections
+    - [x] NumberOfDiscIntersections
+
+- [ ] **Stacks and Queues**
+    - [ ] Brackets
+    - [ ] Fish
+    - [ ] Nesting
+    - [ ] StoneWall
 
 
