@@ -35,7 +35,7 @@ comment.
 - [ ] **Sorting**
     - [x] Distinct
     - [x] Triangle
-    - [ ] MaxProductOfThree
+    - [x] MaxProductOfThree
     - [ ] NumberOfDiscIntersections
 
 
