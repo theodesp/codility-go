@@ -40,7 +40,7 @@ comment.
 
 - [ ] **Stacks and Queues**
     - [X] Brackets
-    - [ ] Fish
+    - [X] Fish
     - [ ] Nesting
     - [ ] StoneWall
 

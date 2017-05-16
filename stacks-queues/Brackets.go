@@ -26,46 +26,8 @@ expected worst-case space complexity is O(N) (not counting the storage required 
 
  */
 
-type StringStack struct {
-	size int
-	data []string
-}
-
-func NewStack(len int) *StringStack {
-	return &StringStack{
-		size: 0,
-		data: make([]string, len),
-	}
-}
-
-func (s *StringStack) Push(item string) {
-	if s.size < len(s.data) {
-		s.data[s.size] = item
-		s.size++
-	}
-}
-
-func (s *StringStack) Pop() string {
-	if s.size > 0 {
-		item := s.data[s.size - 1]
-		s.size -= 1
-
-		return item
-	} else {
-		return ""
-	}
-}
-
-func (s *StringStack) Front() string {
-	if s.size > 0 {
-		return s.data[s.size - 1]
-	} else {
-		return ""
-	}
-}
-
 func Brackets(S string) int {
-	l := NewStack(len(S))
+	l := NewStringStack(len(S))
 	pairs := make(map[string]string)
 	pairs["{"] = "}"
 	pairs["["] = "]"
