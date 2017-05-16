@@ -38,10 +38,14 @@ comment.
     - [x] MaxProductOfThree
     - [x] NumberOfDiscIntersections
 
-- [ ] **Stacks and Queues**
+- [x] **Stacks and Queues**
     - [x] Brackets
     - [x] Fish
     - [x] Nesting
-    - [ ] StoneWall
+    - [x] StoneWall
+  
+- [ ] **Leader**
+    - [ ] EquiLeader
+    - [ ] Dominator
 
 
