@@ -39,7 +39,7 @@ comment.
     - [x] NumberOfDiscIntersections
 
 - [ ] **Stacks and Queues**
-    - [ ] Brackets
+    - [X] Brackets
     - [ ] Fish
     - [ ] Nesting
     - [ ] StoneWall
