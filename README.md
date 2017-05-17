@@ -45,7 +45,7 @@ comment.
     - [x] StoneWall
   
 - [ ] **Leader**
-    - [ ] EquiLeader
+    - [x] EquiLeader
     - [ ] Dominator
 
 
