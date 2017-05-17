@@ -44,8 +44,13 @@ comment.
     - [x] Nesting
     - [x] StoneWall
   
-- [ ] **Leader**
+- [x] **Leader**
     - [x] EquiLeader
-    - [ ] Dominator
+    - [x] Dominator
+    
+- [ ] **Maximum slice**
+    - [ ] MaxProfit
+    - [ ] MaxDoubleSliceSum
+    - [ ] MaxSliceSum
 
 
