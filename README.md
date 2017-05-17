@@ -49,7 +49,7 @@ comment.
     - [x] Dominator
     
 - [ ] **Maximum slice**
-    - [ ] MaxProfit
+    - [x] MaxProfit
     - [ ] MaxDoubleSliceSum
     - [ ] MaxSliceSum
 
