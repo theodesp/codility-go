@@ -51,6 +51,6 @@ comment.
 - [ ] **Maximum slice**
     - [x] MaxProfit
     - [ ] MaxDoubleSliceSum
-    - [ ] MaxSliceSum
+    - [x] MaxSliceSum
 
 
