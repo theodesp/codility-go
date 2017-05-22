@@ -54,7 +54,7 @@ comment.
     - [x] MaxSliceSum
     
 - [ ] **Prime and composite numbers**
-    - [ ] MinPerimeterRectangle
+    - [x] MinPerimeterRectangle
     - [ ] CountFactors
     - [ ] Peaks
     - [ ] Flags
