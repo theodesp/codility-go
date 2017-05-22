@@ -48,9 +48,16 @@ comment.
     - [x] EquiLeader
     - [x] Dominator
     
-- [ ] **Maximum slice**
+- [x] **Maximum slice**
     - [x] MaxProfit
-    - [ ] MaxDoubleSliceSum
+    - [x] MaxDoubleSliceSum
     - [x] MaxSliceSum
+    
+- [ ] **Prime and composite numbers**
+    - [ ] MinPerimeterRectangle
+    - [ ] CountFactors
+    - [ ] Peaks
+    - [ ] Flags
+
 
 
