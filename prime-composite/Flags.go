@@ -7,7 +7,7 @@ func Flags(a []int) int {
     var lastPeakI int
     
     // Count peaks and distances
-    for i:=1; i < len(a) - 1; i++ {
+    for i := 1; i < len(a) - 1; i++ {
         if a[i] > a[i-1] && a[i] > a[i+1] {
             if lastPeakI != 0 {
                 distances[numPicks] = i - lastPeakI
@@ -24,7 +24,7 @@ func Flags(a []int) int {
             // Test found number of flags
             flags := 1
             prevSum := 0
-            for j:=1;j < len(distances);j++ {
+            for j := 1 ; j < len(distances) ; j++ {
                 if prevSum + distances[j] >= i {
                     flags++
                     prevSum = 0
