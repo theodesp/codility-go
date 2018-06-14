@@ -57,7 +57,7 @@ comment.
     - [x] MinPerimeterRectangle
     - [ ] CountFactors
     - [ ] Peaks
-    - [ ] Flags
+    - [x] Flags
 
 
 
