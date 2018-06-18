@@ -58,6 +58,11 @@ comment.
     - [ ] CountFactors
     - [ ] Peaks
     - [x] Flags
+    
+- [ ] **Binary search**
+    - [x] NailingPlanks
+    - [ ] MinMaxDivision
+ 
 
 
 
