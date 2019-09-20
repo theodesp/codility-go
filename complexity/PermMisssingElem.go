@@ -49,3 +49,17 @@ func PermMissingElem(A []int) int {
 
 	return totalSum - arraySum
 }
+
+
+// Or
+func Solution3(A []int) int {
+	sort.Ints(A)
+	var missingNum int
+	for i := 1; i < len(A); i++ {
+		missingNum = A[i-1] + 1
+		if missingNum != A[i] {
+			return missingNum
+		}
+	}
+	return 0
+}
