@@ -57,7 +57,12 @@ comment.
     - [x] MinPerimeterRectangle
     - [ ] CountFactors
     - [ ] Peaks
-    - [ ] Flags
+    - [x] Flags
+    
+- [ ] **Binary search**
+    - [x] NailingPlanks
+    - [ ] MinMaxDivision
+ 
 
 
 
