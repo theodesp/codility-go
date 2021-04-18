@@ -20,19 +20,14 @@ Assume that:
 N and K are integers within the range [0..100];
 each element of array A is an integer within the range [−1,000..1,000].
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
- */
+*/
 
 // Slice the K last elements and construct an array that prepends them
-func CyclicRotate(A[]int, K int) []int {
-	if K == 0 || len(A) == 0 || len(A) == 1 {
+func CyclicRotate(A []int, K int) []int {
+	if K == 0 || len(A) <= 1 {
 		return A
 	}
 
-	if len(A) < K {
-		K = K % len(A)
-	}
-
-	lhs := A[len(A) - K:]
-
-	return append(lhs, A[:len(A) - K]...)
+	K = K % len(A)
+	return append(A[len(A)-K:], A[:len(A)-K]...)
 }
